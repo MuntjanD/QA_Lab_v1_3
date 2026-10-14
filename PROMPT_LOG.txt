@@ -1,0 +1,47 @@
+Prompt: How do I start this project?
+Answer: I create a new folder, add index.html, styles.css, and script.js, and make an assets/ folder for images.
+
+Prompt: What goes in index.html?
+Answer: Basic HTML scaffold with links to styles.css and script.js and a main container for the app UI.
+
+Prompt: How do I run the site locally?
+Answer: Open index.html in a browser or run a simple static server (example: python -m http.server 8000).
+
+Prompt: How do I add interactive behavior?
+Answer: I write functions in script.js, attach event listeners to UI elements, and test interactions in the browser console.
+
+Prompt: How do I test a feature manually?
+Answer: I load the page, perform the action (click, type), watch the DOM and console for expected results, and note failures.
+
+Prompt: How do I add automated tests (simple)?
+Answer: I create a tests/ folder with small JS test files or a simple HTML test runner that checks key functions. For end-to-end, I try Cypress or Playwright later.
+
+Prompt: How do I debug when something breaks?
+Answer: I check the browser console, add console.log() in script.js, and inspect elements with DevTools to find where behavior differs from expectations.
+
+Prompt: How do I edit layout or styles?
+Answer: I update styles.css, refresh the page, and adjust until the layout looks correct across target viewports.
+
+Prompt: How do I update JavaScript logic?
+Answer: I edit script.js, reload, and re-run the manual and automated tests to confirm fixes.
+
+Prompt: How do I document what I changed?
+Answer: I add short comments in code, update README.md with the change summary, and include usage notes if needed.
+
+Prompt: How do I save my work?
+Answer: I run:
+  git add .
+  git commit -m "Describe change in one line"
+  git push
+
+Prompt: How do I test cross-browser compatibility?
+Answer: I open the site in Chrome, Firefox, and Edge, and check key flows (forms, buttons, layout). I note any differences and fix CSS/JS as needed.
+
+Prompt: How do I prepare for a release or handoff?
+Answer: I ensure README has setup and testing steps, include a changelog entry, and tag a release or create a zip of the build files.
+
+Prompt: How do I keep the project small and clear?
+Answer: I remove unused files, keep functions focused, write short comments, and break up long CSS into modular sections.
+
+Prompt: What next after a passing test?
+Answer: I commit the changes, push to the repo, and optionally open a Pull Request describing the work and tests performed.
